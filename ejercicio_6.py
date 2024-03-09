@@ -6,7 +6,7 @@ c. balota azul el descuento será del 20%
 d. balota amarilla el descuento será del 50%
 e. balota negra el descuento será del 100%
 -Si la compra es inferior a 50.000 pesos no participará del sorteo, para este caso se muestra un mensaje y se  imprimirá solo el valor a pagar."""
-#compra
+#compra ejercicio
 valorCompra=int(input("se ingrasa el valor de la compra: "))
 balota=input("se ingresa el color de la balota: ")
 if valorCompra>=50000 and balota=="rojo":
