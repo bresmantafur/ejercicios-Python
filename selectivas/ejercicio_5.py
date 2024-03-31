@@ -1,6 +1,6 @@
 """• La cantidad de estudiantes que obtuvieron una calificación menor a 50. 
 • La cantidad de estudiantes que obtuvieron una calificación de 50 o más pero menor que 70.
- • La cantidad de estudiantes que obtuvieron una calificación de 70 o más pero menor que 80. 
+• La cantidad de estudiantes que obtuvieron una calificación de 70 o más pero menor que 80. 
 • La cantidad de estudiantes que obtuvieron una calificación de 80 o más.
 La calificación obtenida en el examen de algoritmia debe ser entre 1 y 100."""
 #Declaracion de variables
