@@ -104,5 +104,3 @@ print("menor a 50", contador1)
 print("igual a 50 o menor a 70", contador2)
 print("igual a 70 o menor a 80",contador3)
 print("igual a 80 o mas",contador4)
-
-

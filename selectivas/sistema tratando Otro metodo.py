@@ -1,30 +1,18 @@
+"""El Centro de Industria y Comercio del Sena regional Tolima,quiere implementar un sistema de control de ingresos
+que permita contar los estudiantes que ingresan durante los seis dias de la semana 
+como tambien el número de estudiantes por formacion 
+Para el ejemplo vamos a tener en ceenta las siguientes formaciones:
+a. ADSO
+b. produccion multimedia 
+c. Desarrollo de videojuegos
+d. Sistemas
+El algoritmo debe indicar el total de estudiantes clasificados por cada programa, por dia"""
 
-conteo_estudiantes = {
-    "lunes": {"ADSO": 0, "producción multimedia": 0, "Desarrollo de videojuegos": 0, "Sistemas": 0},
-    "martes": {"ADSO": 0, "producción multimedia": 0, "Desarrollo de videojuegos": 0, "Sistemas": 0},
-    "miércoles": {"ADSO": 0, "producción multimedia": 0, "Desarrollo de videojuegos": 0, "Sistemas": 0},
-    "jueves": {"ADSO": 0, "producción multimedia": 0, "Desarrollo de videojuegos": 0, "Sistemas": 0},
-    "viernes": {"ADSO": 0, "producción multimedia": 0, "Desarrollo de videojuegos": 0, "Sistemas": 0},
-    "sábado": {"ADSO": 0, "producción multimedia": 0, "Desarrollo de videojuegos": 0, "Sistemas": 0},
-}
-
-def registrar_ingreso(dia, formacion):
-    conteo_estudiantes[dia][formacion] += 0
-
-def generar_reporte():
-    print("ingrese el Reporte de estudiantes ingresados durante la semana:")
-    for dia, formaciones in conteo_estudiantes.items():
-        print(f"\n{dia.capitalize()}:")
-        for formacion, cantidad in formaciones.items():
-            print(f"{formacion}: {cantidad} estudiantes")
-registrar_ingreso("lunes", "ADSO")
-registrar_ingreso("lunes", "producción multimedia")
-registrar_ingreso("martes", "ADSO")
-registrar_ingreso("martes", "ADSO")
-registrar_ingreso("miércoles", "Desarrollo de videojuegos")
-registrar_ingreso("jueves", "Sistemas")
-registrar_ingreso("viernes", "Sistemas")
-registrar_ingreso("sábado", "producción multimedia")
-registrar_ingreso("sábado", "Desarrollo de videojuegos")
-registrar_ingreso("sábado", "Desarrollo de videojuegos")
-generar_reporte()
+registro_Estudiantes=0
+dias=("lunes", "marteas", "miercoles", "jueves", "viernes", "sabado")
+def dividir_numero(numero):
+    partes=[numero / 4] *4
+    return partes
+registro_Estudiantes=int(input("ingrse un numero de estudiantes:"))
+partes= dividir_numero(registro_Estudiantes)
+print("el numero de estudiantes divididos en cada formacion es:", partes)
