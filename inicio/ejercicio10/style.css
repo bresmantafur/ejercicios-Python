@@ -1,0 +1,15 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+h2 {
+    color: #4CAF50;
+}
+ol {
+    margin-top: 10px;
+}
+.group-code {
+    font-weight: bold;
+    margin-top: 20px;
+}

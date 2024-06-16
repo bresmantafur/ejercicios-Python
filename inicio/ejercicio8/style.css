@@ -1,0 +1,35 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.offer {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.offer h2 {
+    color: #4CAF50;
+}
+.offer p {
+    margin: 5px 0;
+}
+.solicitar {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.solicitar:hover {
+    background-color: #45a049;
+}
